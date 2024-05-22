@@ -1,4 +1,4 @@
-Library: /Users/eventsequor/Documents/Code/UnityProjects/Perception/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
+Library: C:\Users\IMAGINE\Documents\Code\perception\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
 --platform=Android
 --backend=burst-llvm-16
 --target=ARMV8A_AARCH64
@@ -10,11 +10,15 @@ Library: /Users/eventsequor/Documents/Code/UnityProjects/Perception/Temp/BurstOu
 --target-framework=NetFramework
 --float-mode=Fast
 --assembly-defines=Assembly-CSharp;
+--assembly-defines=gpm_common;
+--assembly-defines=gpm_communicator;
+--assembly-defines=gpm_webview;
 --assembly-defines=Mono.Security;
 --assembly-defines=mscorlib;
 --assembly-defines=System.Configuration;
 --assembly-defines=System.Core;
 --assembly-defines=System;
+--assembly-defines=System.Numerics;
 --assembly-defines=System.Xml;
 --assembly-defines=Unity.Burst;
 --assembly-defines=Unity.Burst.Unsafe;
@@ -37,11 +41,11 @@ Library: /Users/eventsequor/Documents/Code/UnityProjects/Perception/Temp/BurstOu
 --assembly-defines=Unity.XR.OpenXR.Features.OculusQuestSupport;
 --assembly-defines=Unity.XR.OpenXR.Features.RuntimeDebugger;
 --assembly-defines=UnityEngine;
---generate-link-xml=Temp/burst.link.xml
---temp-folder=/Users/eventsequor/Documents/Code/UnityProjects/Perception/Temp/Burst
---key-folder=/Applications/Unity/Hub/Editor/2022.3.19f1/PlaybackEngines/AndroidPlayer
---decode-folder=/Users/eventsequor/Documents/Code/UnityProjects/Perception/Library/Burst
---output=/Users/eventsequor/Documents/Code/UnityProjects/Perception/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
+--generate-link-xml=Temp\burst.link.xml
+--temp-folder=C:\Users\IMAGINE\Documents\Code\perception\Temp\Burst
+--key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer
+--decode-folder=C:\Users\IMAGINE\Documents\Code\perception\Library\Burst
+--output=C:\Users\IMAGINE\Documents\Code\perception\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=Unity.Jobs.IJobForExtensions+ForJobStruct`1[[UnityEngine.Rendering.Universal.ZBinningJob, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(UnityEngine.Rendering.Universal.ZBinningJob&, Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)--77fc393cb521ac129b1392d4eb94d29a
@@ -56,11 +60,15 @@ Library: /Users/eventsequor/Documents/Code/UnityProjects/Perception/Temp/BurstOu
 --float-precision=Standard
 --target-framework=NetFramework
 --assembly-defines=Assembly-CSharp;
+--assembly-defines=gpm_common;
+--assembly-defines=gpm_communicator;
+--assembly-defines=gpm_webview;
 --assembly-defines=Mono.Security;
 --assembly-defines=mscorlib;
 --assembly-defines=System.Configuration;
 --assembly-defines=System.Core;
 --assembly-defines=System;
+--assembly-defines=System.Numerics;
 --assembly-defines=System.Xml;
 --assembly-defines=Unity.Burst;
 --assembly-defines=Unity.Burst.Unsafe;
@@ -83,11 +91,11 @@ Library: /Users/eventsequor/Documents/Code/UnityProjects/Perception/Temp/BurstOu
 --assembly-defines=Unity.XR.OpenXR.Features.OculusQuestSupport;
 --assembly-defines=Unity.XR.OpenXR.Features.RuntimeDebugger;
 --assembly-defines=UnityEngine;
---generate-link-xml=Temp/burst.link.xml
---temp-folder=/Users/eventsequor/Documents/Code/UnityProjects/Perception/Temp/Burst
---key-folder=/Applications/Unity/Hub/Editor/2022.3.19f1/PlaybackEngines/AndroidPlayer
---decode-folder=/Users/eventsequor/Documents/Code/UnityProjects/Perception/Library/Burst
---output=/Users/eventsequor/Documents/Code/UnityProjects/Perception/Temp/BurstOutput/tempburstlibs/arm64-v8a/lib_burst_generated
+--generate-link-xml=Temp\burst.link.xml
+--temp-folder=C:\Users\IMAGINE\Documents\Code\perception\Temp\Burst
+--key-folder=C:/Program Files/Unity/Hub/Editor/2022.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer
+--decode-folder=C:\Users\IMAGINE\Documents\Code\perception\Library\Burst
+--output=C:\Users\IMAGINE\Documents\Code\perception\Temp\BurstOutput\tempburstlibs\arm64-v8a\lib_burst_generated
 --pdb-search-paths=Temp/ManagedSymbols/
 
 --method=UnityEngine.XR.Interaction.Toolkit.Utilities.BurstMathUtility, Unity.XR.Interaction.Toolkit, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::ProjectOnPlane(Unity.Mathematics.float3&, Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null|Unity.Mathematics.float3&, Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null|Unity.Mathematics.float3&, Unity.Mathematics, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null)--1819bc9925667b008fd6c3e6019ccf71
